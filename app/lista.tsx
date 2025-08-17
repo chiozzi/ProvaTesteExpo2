@@ -6,10 +6,7 @@ import { useRouter } from "expo-router";
 export default function Lista() {
   // estados: lista de gatos, loading e erro
   const [gatos, setGatos] = useState<any[]>([]);
-  const [loading, setLoadigit add .
-git commit -m "atualização"
-git push origin main
-ng] = useState(true);
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const router = useRouter(); // usado para navegar entre telas
 
